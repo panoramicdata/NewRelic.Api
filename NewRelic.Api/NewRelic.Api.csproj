@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+		<Authors>Panoramic Data Limited</Authors>
+		<Description>.NET API for New Relic REST API</Description>
+		<Copyright>Panoramic Data Limited 2019</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>0.1.0-alpha</Version>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageProjectUrl>https://github.com/panoramicdata/NewRelic.Api</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/panoramicdata/NewRelic.Api</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>New Relic</PackageTags>
+		<PackageReleaseNotes>Alpha release</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="refit" Version="4.7.51" />
+		<PackageReference Include="SecurityCodeScan" Version="3.3.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
