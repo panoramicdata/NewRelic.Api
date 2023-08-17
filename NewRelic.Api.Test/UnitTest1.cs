@@ -8,7 +8,11 @@ namespace NewRelic.Api.Test
 		[Fact]
 		public void Test1()
 		{
+			// Example unit test
 
+			// Arrange
+			// Act
+			// Assert
 		}
 	}
 }
